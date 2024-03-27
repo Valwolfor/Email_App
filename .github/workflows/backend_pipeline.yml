@@ -12,8 +12,8 @@ jobs:
   backend_testing: 
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:          
           python-version: '3.10'
       
@@ -78,13 +78,14 @@ jobs:
           DEV_FRONT_URL: ${{ secrets.DEV_FRONT_URL }}
           ELASTIC_USER: ${{ secrets.ELASTIC_USER }}
           ELASTIC_PASSWORD: ${{secrets.ELASTIC_PASSWORD}}
+
   backend_deployment:
     if: ${{ github.event_name == 'push' && !contains(toJson(github.event.commits.*.message), '#skipback') }}
     needs: backend_testing
     runs-on: ubuntu-latest
     steps:
       - name: SSH script
-        uses: appleboy/ssh-action@v0.1.7
+        uses: appleboy/ssh-action@v1.0.3
         env:
           DATABASE_URI: ${{ secrets.DATABASE_URI }}
           GIT_API_TOKEN: ${{ secrets.GIT_API_TOKEN }}
@@ -114,7 +115,7 @@ jobs:
 
           script: |
             ls -all
-            git clone https://oauth2:$GIT_API_TOKEN@github.com/imitelis/Email_App.git || ls
+            git clone https://oauth2:$GIT_API_TOKEN@github.com/valwolfor/Email_App.git || ls
             cd Email_App
             cd backend
             git checkout
@@ -142,7 +143,7 @@ jobs:
             export ELASTIC_USER=$ELASTIC_USER
             export ELASTIC_PASSWORD=$ELASTIC_PASSWORD
             killall gunicorn || ls
-            gunicorn --bind 0.0.0.0:8000 main:app --daemon
+            gunicorn --bind 0.0.0.0:8001 main:app --daemon
 
       - name: Visit EC2
         run: |
