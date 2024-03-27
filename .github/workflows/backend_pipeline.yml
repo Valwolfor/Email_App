@@ -59,7 +59,7 @@ jobs:
         run: |
           cd backend
           export PYTHONPATH=$(pwd)
-          pytest --pyargs tests/
+          pytest --pyargs tests/ -vv
         env:
           FLASK_APP: ${{ secrets.FLASK_APP }}
           FLASK_ENV: ${{ secrets.FLASK_ENV }}
