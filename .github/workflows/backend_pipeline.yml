@@ -55,6 +55,7 @@ jobs:
           export PYTHONPATH=$(pwd)
           pytest tests/unit_user.py tests/unit_email.py
 
+
       #- name: API tests
 #        run: |
 #          cd backend
