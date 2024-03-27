@@ -65,7 +65,7 @@ def test_one_get_email_inbox(client):
     # TODO: How to test the contents of the inbox email?
 
 
-def test_one_get_email_sent(client):
+def test_one_get_email_sent(client): #from another email sender.
     primary_key = "66cf8a0f-e8fe-49a6-9a0c-297595beb4da"
 
     # TODO: This shouldn't be hard coded but accessing with function gives: OutOfContextError
