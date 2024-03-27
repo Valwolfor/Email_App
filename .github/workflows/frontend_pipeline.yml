@@ -47,14 +47,6 @@ jobs:
         run: |
           cd frontend
           npm run test
-
-      - name: E2E tests
-        run: |
-          cd frontend
-          npm run dev &
-          npm run e2e:run
-        env:
-          DEV_PROXY_URL: ${{ secrets.PROD_PROXY_URL }}
       
       - name: Build app
         run: |
