@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a27a411e-306c-4adc-9b66-1e8bfc51d7f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/cypress/screenshots/emailcompose.cy.ts/Checks that logged user can see Send Email -- Checks if all inputs are blank and show Please fill out this field (failed).png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/cypress/screenshots/emailcompose.cy.ts/Checks that logged user can see Send Email -- Checks if all inputs are blank and show Please fill out this field (failed).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/cypress/screenshots/emailcompose.cy.ts/Checks that logged user can see Send Email -- Displays error when email is not valid and api returns 404 Error (failed).png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/cypress/screenshots/emailcompose.cy.ts/Checks that logged user can see Send Email -- Displays error when email is not valid and api returns 404 Error (failed).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/cypress/screenshots/inbox.cy.ts/Checks that logged user can see his Inbox and search bar works -- Checks if search bar works (failed).png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/cypress/screenshots/inbox.cy.ts/Checks that logged user can see his Inbox and search bar works -- Checks if search bar works (failed).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/cypress/screenshots/login.cy.ts/Login tests -- displays error when credentials are not valid (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/cypress/screenshots/login.cy.ts/Login tests -- sends a successful POST request when login button is clicked (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/cypress/screenshots/signup.cy.ts/Signup tests -- sends a successful POST request when signup button is clicked, if user already exist on db, returns a 400 (failed).png" beforeDir="false" />
-    </list>
+    <list default="true" id="a27a411e-306c-4adc-9b66-1e8bfc51d7f9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -310,7 +302,7 @@
       <updated>1711493305993</updated>
       <workItem from="1711493307070" duration="18028000" />
       <workItem from="1711541428313" duration="2705000" />
-      <workItem from="1711544311105" duration="22094000" />
+      <workItem from="1711544311105" duration="22453000" />
     </task>
     <servers />
   </component>
