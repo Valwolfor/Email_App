@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a27a411e-306c-4adc-9b66-1e8bfc51d7f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/backend_pipeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/backend_pipeline.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/frontend_pipeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/frontend_pipeline.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Email_App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Email_App.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/tests/test_emails_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/test_emails_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/fly.toml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/fly.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,7 +306,7 @@
       <updated>1711493305993</updated>
       <workItem from="1711493307070" duration="18028000" />
       <workItem from="1711541428313" duration="2705000" />
-      <workItem from="1711544311105" duration="9863000" />
+      <workItem from="1711544311105" duration="13777000" />
     </task>
     <servers />
   </component>
