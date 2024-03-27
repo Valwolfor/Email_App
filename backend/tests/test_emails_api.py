@@ -48,7 +48,7 @@ def test_emails_sent(client):
 
 
 def test_one_get_email_inbox(client):
-    primary_key = "b3b081d4-2a6f-49c3-91f8-cc220ea04617"
+    primary_key = "77486b62-22d0-42ea-8eba-d25841eae014"
 
     # TODO: This shouldn't be hard coded but accessing with function gives: OutOfContextError
     access_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMTU1NTE5MCwianRpIjoiZGRiOTQzMDYtMjg3Yi00MGJlLThjNjYtNTdiMjdiZDVlY2FlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImNhcmxvc3F1aW50ZXJvMkBnbWFpbC5jb20iLCJuYmYiOjE3MTE1NTUxOTAsImNzcmYiOiI3MGY0NWQ4My1mMTkxLTRkN2YtOGM5MS0xYTUxYTc4YWNiOGUifQ.sQ71faNI47vvA3jJmp8qszVgtVQgRstiJuIUwW_badk"  # create_access_token("carlosquintero2@gmail.com", expires_delta=False)
@@ -66,7 +66,7 @@ def test_one_get_email_inbox(client):
 
 
 def test_one_get_email_sent(client):
-    primary_key = "b3b081d4-2a6f-49c3-91f8-cc220ea04617"
+    primary_key = "66cf8a0f-e8fe-49a6-9a0c-297595beb4da"
 
     # TODO: This shouldn't be hard coded but accessing with function gives: OutOfContextError
 
